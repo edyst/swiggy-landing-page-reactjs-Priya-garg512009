@@ -5,8 +5,8 @@ const Jumbo =()=>
 {
     return(
         <div>
-        <section className="hero">
-          <div className="intro" id="int">
+        <section className="jumbo">
+          <div className="jumbo_div1" id="int">
             <div className="header width">
               <div className="logo">
                 <img
@@ -15,11 +15,11 @@ const Jumbo =()=>
                   width="200px"
                 />
               </div>
-              <div className="btnContainer">
-                <a href="/login" className="LogInBtn">
+              <div className="jumbo_button">
+                <a href="/login" className="login">
                   Login
                 </a>
-                <a href="/signup" className="SignUpBtn">
+                <a href="/signup" className="signup">
                   Sign Up
                 </a>
               </div>
@@ -47,11 +47,12 @@ const Jumbo =()=>
                   </div>
                 </div>
               </div>
-              <p id="ankit">Order food from favourite restaurants near you.</p>
+              <p id="jumbo_heading">Order food from favourite restaurants near you.</p>
             </div>
             <div className="input-container width">
               <input type="text" placeholder="Enter your delivery location" />
               <button type="submit" className="locateBtn">
+                  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
                 <i className="fa fa-crosshairs"></i>Locate Me
               </button>
               <button type="submit" className="foodBtn">
