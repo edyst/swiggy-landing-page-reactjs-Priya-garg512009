@@ -52,7 +52,7 @@ const Jumbo =()=>
             <div className="input-container width">
               <input type="text" placeholder="Enter your delivery location" />
               <button type="submit" className="locateBtn">
-                  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
                 <i className="fa fa-crosshairs"></i>Locate Me
               </button>
               <button type="submit" className="foodBtn">
@@ -60,18 +60,18 @@ const Jumbo =()=>
               </button>
             </div>
             <div className="cities width">
-              <p id="ankit">POPULAR CITIES IN INDIA</p>
+              <p id="jumbo_heading">POPULAR CITIES IN INDIA</p>
               <ul className="city-names">
-                <li className="alternate">Ahemdabad</li>
-                <li>Bangalore</li>
-                <li className="alternate">Chennai</li>
-                <li>Delhi</li>
-                <li className="alternate">Gurgaon</li>
-                <li>Hyderabad</li>
-                <li className="alternate">Kolkata</li>
-                <li>Mumbai</li>
-                <li className="alternate">Pune</li>
-                <li>& more</li>
+                <li><a href="https://web.archive.org/web/20210903174711/https:/www.swiggy.com/ahmedabad" className="a1">Ahemdabad</a></li>
+                <li><a href="https://web.archive.org/web/20210903174711/https://www.swiggy.com/bangalore"className="a2">Bangalore</a></li>
+                <li><a href="https://web.archive.org/web/20210903174711/https://www.swiggy.com/chennai" className="a1">Chennai</a></li>
+                <li><a href="https://web.archive.org/web/20210903174711/https://www.swiggy.com/delhi" className="a2">Delhi</a></li>
+                <li><a href="https://web.archive.org/web/20210903174711/https://www.swiggy.com/gurgaon" className="a1">Gurgaon</a></li>
+                <li><a href="https://web.archive.org/web/20210903174711/https://www.swiggy.com/hyderabad" className="a2">Hyderabad</a></li>
+                <li><a href="https://web.archive.org/web/20210903174711/https://www.swiggy.com/kolkata" className="a1">Kolkata</a></li>
+                <li><a href="https://web.archive.org/web/20210903174711/https://www.swiggy.com/mumbai"  className="a2">Mumbai</a></li>
+                <li><a href="https://web.archive.org/web/20210903174711/https://www.swiggy.com/mumbai" className="a1">Pune</a></li>
+                <li><a href="https://web.archive.org/city-links" className="a2">& more</a></li>
               </ul>
             </div>
           </div>
