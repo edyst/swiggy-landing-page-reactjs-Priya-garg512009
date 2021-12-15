@@ -36,4 +36,4 @@ function Feature()
         </section>
     )
 }
-export default Feature
+export default Feature;
