@@ -39,6 +39,30 @@
     margin-left: -40px;
   }
   
+ @media(max-width:500px)
+  {
+    .resh2,.resh22
+    {font-size:30px;
+    text-align: center;
+    }
+    .restimg1,.restimg2
+    {
+      width:150px;
+    }
+    .screenshots img:nth-child(1) {
+      margin-top:5px;
+      padding-bottom: 60px;
+      width:250px;
+    }
+    .screenshots img:nth-child(2)
+    {
+      width:250px;
+    }
+    .resdiv1
+    {
+      text-align: center;
+    }
+
   @media(max-width:700px)
   {
     .resh2,.resh22
